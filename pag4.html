@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./generale.css" />
+    <link rel="stylesheet" href="./pag4.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./assets/epicode_logo.png" alt="logo epicode" />
+    </header>
+    <main>
+      <div>
+        <h1>Tell us how it's going</h1>
+        <p>
+          From 0 to 10, how likely are you to reccommend EPICODE to a friend or
+          a colleague?
+        </p>
+      </div>
+      <div id="star"></div>
+      <div>
+        <p>Leave us an open feedback about your experience so far</p>
+      </div>
+      <div>
+        <form action="EasterEgg.html">
+          <input
+            id="input"
+            type="text"
+            placeholder="    Write your comment here"
+            required
+            name="terms"
+          />
+          <button
+            style="height: 60px; width: 250px; font-weight: 800"
+            class="nextBtn"
+            type="submit"
+            onclick="inviaFeedback()"
+          >
+            MORE INFO
+          </button>
+        </form>
+      </div>
+      <script src="pag4.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.logo{
+    margin-bottom: 3em;
+}
+main{
+    
+    width: 100%;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.fotoselfie{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    height: 15em;
+    width: 15em;
+    border-radius: 10em;
+    box-shadow: 8px 5px 6px 5px black;
+}

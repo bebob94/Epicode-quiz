@@ -1,0 +1,82 @@
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+}
+
+.tit1 {
+  font-weight: 400;
+}
+main {
+  margin-left: 10em;
+  margin-right: 10em;
+  text-align: center;
+  padding-top: 6em;
+  height: 100%;
+}
+.tit2 {
+  margin-top: -1em;
+}
+footer {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 5em;
+  width: 99%;
+  bottom: 0;
+}
+
+/* ul,
+li {
+  text-align: center;
+  display: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+
+  border-radius: 50px;
+} */
+
+#answers{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.nextBtn {
+  margin-top: 2em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+ul {
+  border: none;
+}
+li {
+  border: 1px solid #653579;
+}
+
+.risposte {
+  background-color: transparent;
+  color: white;
+  border: 3px white;
+  border-radius: 40px;
+  margin: 1em;
+  margin-right: 6em;
+  margin-left: 6em;
+  height: 6em;
+  width: 25em;
+  -moz-box-shadow: 2px 0px 3px rgb(255, 255, 255);
+  -webkit-box-shadow: 2px 0px 3px rgb(255, 255, 255);
+  box-shadow: 2px 0px 3px rgb(255, 255, 255);
+}
+
+
+.risposte:active,
+.risposte:focus,
+.risposte:hover {
+  background: #900080;
+}

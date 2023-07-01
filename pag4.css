@@ -1,0 +1,49 @@
+main {
+  text-align: center;
+  margin-top: 4em;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+#star {
+  margin-top: 3em;
+  margin-bottom: 8em;
+  
+}
+
+#star:hover {
+  cursor: pointer;
+}
+
+.stars{
+  opacity: 0.5;
+}
+
+.stars:hover{
+  opacity: 1;
+}
+
+#input {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px #d20094;
+  height: 2em;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 5em;
+  color: white;
+}
+
+.selected{
+  opacity: 1;
+}
+
